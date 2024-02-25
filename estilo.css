@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Arial Narrow';
+    font-family: 'Calibri';
 }
 
 .col-1 {width: 8.33%;}
@@ -37,6 +37,7 @@ body{
 }
 
 .encabezado {
+    vertical-align: middle;
     color: white;
     height: 100px;
     background-color: #75B600;
@@ -47,24 +48,28 @@ body{
     height: 500px;
     background-color: #FDF4EB;
     padding: 10px 10px 10px 10px;
+    vertical-align: middle;
 }
 
 .info-2 {
     height: 500px;
     background-color: #67A961;
     padding: 10px 10px 10px 10px;
+    vertical-align: middle;
 }
 
 .info-2 a {
   font-size: large;
   color: #233E42;
   font-weight: bolder;
+  vertical-align: middle;
 }
 
 .contenido {
   height: 500px;
   background-color: #67A961;
   padding: 10px 10px 10px 10px;
+  vertical-align: middle;
 }
 
 .contenido ul{
@@ -87,12 +92,14 @@ body{
   height: 250px;
   background-color: #FDF4EB;
   padding: 10px 10px 10px 10px;
+  vertical-align: middle;
 }
 
 .articulo ul{
   background-color: transparent;
   list-style: square;
   list-style-position: inside;
+  vertical-align: middle;
 }
 
 .articulo ul li{
